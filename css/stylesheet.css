@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: 'human_sansbold';
+    src: url('humansans-bold-webfont.woff2') format('woff2'),
+         url('humansans-bold-webfont.woff') format('woff');
+}
+
+
+
+
+@font-face {
+    font-family: 'human_sansextralight';
+    src: url('humansans-extralight-webfont.woff2') format('woff2'),
+         url('humansans-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'human_sanslight';
+    src: url('humansans-light-webfont.woff2') format('woff2'),
+         url('humansans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'human_sansregular';
+    src: url('humansans-regular-webfont.woff2') format('woff2'),
+         url('humansans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
