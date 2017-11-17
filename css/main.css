@@ -558,42 +558,6 @@ ul li {
 
 
 
-/* ------------------------------------------------------------------------------
-	 Testimonials
--------------------------------------------------------------------------------*/
-
-.testimonials {
-  width: 94%;
-  margin: auto;
-  background-color: #333;
-  position: relative;
-  text-align: center;
-}
-
-.testimonials blockquote {
-  border: 0;
-  margin: 0;
-  padding: 100px 15%;
-}
-
-.testimonials h1 {
-  color: #fff;
-  font: 19px "Open Sans", sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-
-.testimonials p {
-  color: #fff;
-  display: block;
-  font-size: 11px;
-  font-style: normal;
-  letter-spacing: 2px;
-  font-weight: 400;
-  margin-top: 30px;
-  text-transform: uppercase;
-}
-
 
 
 /* ------------------------------------------------------------------------------
