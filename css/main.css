@@ -66,6 +66,9 @@ h6 {
   padding: 15px 40px;
 }
 
+/* --------------------------------------------------------------------
+   For position
+--------------------------------------------------------------------*/
 
 
 /* --------------------------------------------------------------------
@@ -108,13 +111,9 @@ ul li {
 	padding: 0 3%;
 }
 
-.no-padding {
-  padding: 0;
-}
-
-.no-gutter [class*=col-] {
-  padding-right: 0;
-  padding-left: 0;
+.no_pad {
+  padding-left: 0 !important;
+  padding-right: 0 !important; 
 }
 
 .fullsection {
@@ -569,16 +568,17 @@ ul li {
   width: 100%;
   margin: auto;
   text-align: left;
-  padding-top: 5%;
-  padding-bottom: 7%;
   background-color: rgb(84, 84, 84);
-  padding: 8% 8% 2% 8%;
+  padding: 5% 8% 0 5%;
+  color: #fff;
 }
 
-.inline li {
-  display: inline-table;
-  width: 116px;
-  margin: 0 8% 0 1%
+.list_group{
+  border-bottom:1px solid #fff;
+}
+
+.block {
+  min-height: 150px;
 }
 
 .block li {
@@ -589,20 +589,21 @@ ul li {
 .footer h4 {
   font-size: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px black solid;
+  border-bottom: 1px white solid;
 }
 
 .footer a {
-  color: #000;
+  color: #fff;
 }
 
 .footer a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-.col-2 {
-  width: 212px;
+.footer .footer-share {
+  min-height: 180px;
 }
+
 
 .footer .footer-share li {
   display: inline;
@@ -617,7 +618,8 @@ ul li {
 }
 
 .copyright {
-  margin-top: 10%;
+  padding-top:5%;
+  min-height: 50px;
 }
 
 .footer .fa-heart {
@@ -663,3 +665,15 @@ ul li {
   font-weight: 400;
   margin-top: 7%;
 }
+
+// ==== clearfix ========
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
