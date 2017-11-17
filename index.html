@@ -26,16 +26,14 @@
     <!-- Navigation Section -->
     <header id="header">
       <div class="header-content clearfix">
-        <a class="logo" href="#">
+        <a class="logo" href="index.html">
           <img src="images/Tammy_logo.png" alt="logo" width="40px">
           Tammy Tang
         </a>
         <nav class="navigation" role="navigation">
           <ul class="primary-nav">
-            <li><a href="#header-slider">Home</a></li>
             <li><a href="#portfolio">What I do</a></li>
             <li><a href="#about">Who I am</a></li>
-            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <a href="#" class="nav-toggle">Menu<span></span></a>
@@ -45,8 +43,8 @@
   </section>
   <!-------- end of Header Section -------->
   <!-- Slider Section -->
-  <section id="header-slider" class="section">
-    <div data-ride="carousel">
+  <section id="header-slider" class="fullsection">
+    <div id="myCarousel" data-ride="carousel" class="carousel slide">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -55,10 +53,10 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="images/slider/slid1.jpg" alt="proj1">
+          <img src="images/proj_1/slid1.jpg" alt="proj1">
         </div>
         <div class="item">
-          <img src="images/slider/slid2.jpg" alt="proj2">
+          <img src="images/proj_1/slid2.jpg" alt="proj2">
         </div>
         <div class="carousel-caption">
           <h1>Create Positive Impact Through Design</h1>
@@ -80,7 +78,7 @@
   </section>
   <!-------- end of Slider Section -------->
   <!-- portfolio grid section -->
-  <section id="portfolio" class="section portfolio">
+  <section id="portfolio" class="fullsection portfolio">
     <div class="container-fluid">
       <div class="row">
         <!-- proj1-->
@@ -182,49 +180,46 @@
   </section>
   <!-------- end of portfolio grid section -------->
   <!-- About Section -->
-  <section id="about" class="section about">
+  <section id="about" class="fullsection about">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-sm-6">
-          <div class="about-content">
-            <h4>We're Australia based branding & design agency.</h4>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-          </div>
+        <div class="slogan1 col-sm-9">
+          <p>
+            I touch the complex world through the understanding of human behaviour, organisational processes and whole systems
+          </p>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="about-content">
-            <h5>Work Experience</h5>
-            <ul>
-              <li><a href="#">Yougth Innovation Academy</a></li>
-              <li><a href="#">Nuvu</a></li>
-              <li><a href="#">Continuum Shanghai Studio</a></li>
-              <li><a href="#">Center of Digital Innovation</a></li>
-              <li><a href="#">Dupont</a></li>
-            </ul>
-          </div>
+        <div class="slogan2 col-sm-7 col-sm-offset-5">
+          <p>
+            "I am learning to have the ability and insights to work with an organization committed to social innovation in order to combine design with business and systemic approach to enlarge groups that will benefit and make a large-scale impact."
+          </p>
         </div>
-        <!------col-md-3 col-sm-6 ------>
-        <div class="col-md-3 col-sm-6">
-          <div class="about-content">
-            <h5>Education Experience</h5>
-            <ul>
-              <li><a href="#">Tongji Uni</a></li>
-              <li><a href="#">ArtCenter Collage of Design</a></li>
-            </ul>
-          </div>
-        </div>
-        <!------col-md-3 col-sm-6 ------>
       </div>
     </div>
   </section>
   <!-------- end of About Section -------->
+
+  <section id="resume" class="smallSection">
+    <div class="container-fluid">
+      <div class="resumeContainer">
+        <div class="col-sm-4">
+          <h4 class="title">Education</h4>
+        </div>
+        <div class="col-sm-8">
+          <h5 class="subTitle">Bachelor 2018</h5>
+        </div>
+        <div class="col-sm-8 col-sm-offset-4">
+          <h5 class="subTitle">Exchange 2017 Fall</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- footer section -->
   <footer id="contact" class="footer">
     <ul class="inline">
       <li>
         <div class="col-2">
           <h4>Tammy Tang</h4>
-          <p> Create Positive Impact Through Design</p>
         </div>
       </li>
       <li>
