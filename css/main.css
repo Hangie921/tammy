@@ -70,7 +70,17 @@ h6 {
 /* --------------------------------------------------------------------
    For position
 --------------------------------------------------------------------*/
+.bottom_space-sm{
+  padding-bottom: 15px;
+}
 
+.bottom_space-md{
+  padding-bottom: 30px;
+}
+
+.bottom_space-lg{
+  padding-bottom: 48px;
+}
 
 /* --------------------------------------------------------------------
    General Style
@@ -117,7 +127,7 @@ ul li {
   padding-right: 0 !important;
 }
 
-.fullsection {
+.full_section {
   padding: 0 8%;
 }
 
@@ -516,7 +526,6 @@ ul li {
 }
 
 .about {
-  width: 94%;
   margin: auto;
 }
 
@@ -541,6 +550,10 @@ ul li {
   margin-top: 7%;
 }
 
+.slogan2 {
+  padding-bottom: 7%;
+}
+
 .about .slogan2 p {
   color: #3d2c2c;
   font-size: 14px;
@@ -561,9 +574,75 @@ ul li {
 }
 
 
+/* ------------------------------------------------------------------------------
+   Resume
+   
+-------------------------------------------------------------------------------*/
 
+#resume {
+  width: 80%;
+  margin: auto;
+}
 
+.resume_group {
+  padding-top: 5%;
+}
 
+.resume_group .title {
+  color:  #000;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.resume_group .under_line {
+  display: inline-block;
+  border: 1px solid white;
+  border-bottom-color: #f3b00e;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.resume_group .sub_title{
+  text-transform: capitalize;
+  color: #f3b00e;
+  border-color: #f3b00e;
+  font-weight: 400;
+  font-family: 'human_sansbold', Helvetic, sans-serif;
+}
+
+.resume_group .department {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #000;
+}
+
+.resume_group .location {
+  color: #ababab;
+  font-weight: normal;
+}
+
+.resume_group p {
+  font-weight: initial;
+}
+
+.resume_group .specialties {
+  padding-bottom: 150px;
+}
+
+.resume_group .specialties li {
+  position: relative;
+}
+
+.resume_group .specialties li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 1px;
+  background-color: #6c7279;
+  left: -10px;
+  top: 9px;
+}
 
 /* ------------------------------------------------------------------------------
    Footer
