@@ -1,5 +1,7 @@
 body {
-  font-family: Helvetic, sans-serif;
+  font-family: 'human_sansextralight', Helvetic, sans-serif;
+  font-weight: 400;
+  color: #6c7279;
 }
 
 /* color : yellow:#ffcc00 dark gray:#666666 pale blue:#99ccff light gray:#cccccc */
@@ -24,23 +26,28 @@ h2 {
 h3 {
   font-size: 28px;
   font-weight: 300;
+  font-family: 'human_sansregular', Helvetic, sans-serif;
 }
 
 h4 {
   font-size: 22px;
   font-weight: 400;
+  font-family: 'human_sansregular', Helvetic, sans-serif;
 }
 
 h5 {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: 'human_sansregular', Helvetic, sans-serif;
 }
 
 h6 {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: 'human_sansregular', Helvetic, sans-serif;
+
 }
 
 .btn {
@@ -97,11 +104,6 @@ a:focus {
   -o-transition: background-color, color, 0.3s;
   -webkit-transition: background-color, color, 0.3s;
   transition: background-color, color, 0.3s;
-}
-
-body {
-  font-weight: 400;
-  color: #6c7279;
 }
 
 ul,
@@ -546,6 +548,7 @@ ul li {
 .about .slogan1 p {
   color: #3d2c2c;
   font-size: 36px;
+  line-height: 36px;
   font-weight: 300;
   margin-top: 7%;
 }
@@ -557,6 +560,7 @@ ul li {
 .about .slogan2 p {
   color: #3d2c2c;
   font-size: 14px;
+  line-height: 16px;
   margin-top: 7%;
 }
 
@@ -590,7 +594,7 @@ ul li {
 
 .resume_group .title {
   color:  #000;
-  font-weight: 600;
+  font-weight: bolder;
   text-transform: capitalize;
 }
 
@@ -611,7 +615,7 @@ ul li {
 
 .resume_group .department {
   text-transform: capitalize;
-  font-weight: bold;
+  font-weight: bolder;
   color: #000;
 }
 
