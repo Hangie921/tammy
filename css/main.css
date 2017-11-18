@@ -164,6 +164,10 @@ ul li {
   text-transform: uppercase;
 }
 
+#header .logo.white {
+  color: #fff;
+}
+
 #header.fixed {
   background-color: #fff;
   opacity: 0.9;
@@ -199,6 +203,8 @@ ul li {
   display: inline-block;
 }
 
+
+
 .navigation a {
   color: #000;
   font-size: 14px;
@@ -208,9 +214,13 @@ ul li {
   text-transform: capitalize;
 }
 
+.navigation a.white{
+  color: #fff;
+}
+
 .navigation a:hover,
 .navigation a.active {
-  color: #ffcc00;
+  color: #ffcc00 !important;
 }
 
 .nav-toggle {
