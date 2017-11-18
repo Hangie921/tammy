@@ -398,12 +398,13 @@ ul li {
   right: 10%;
   text-align: left;
   z-index: 10;
+  font-family: Helvetic, sans-serif;
 }
 
 .carousel-caption h1 {
   text-shadow: none;
   font-size: 72px;
-  font-weight: 100;
+  font-weight: lighter;
   text-transform: capitalize;
   letter-spacing: 5px;
 }
@@ -412,7 +413,7 @@ ul li {
   margin-top: 100px;
   text-shadow: none;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 2px;
 }
 
@@ -548,10 +549,12 @@ ul li {
   font-size: 36px;
   font-weight: 300;
   margin-top: 7%;
+  font-family: Helvetic, sans-serif;
 }
 
 .slogan2 {
   padding-bottom: 7%;
+  font-family: Helvetic, sans-serif;
 }
 
 .about .slogan2 p {
@@ -592,6 +595,7 @@ ul li {
   color:  #000;
   font-weight: 600;
   text-transform: capitalize;
+  font-family: Helvetic, sans-serif;
 }
 
 .resume_group .under_line {
@@ -606,8 +610,8 @@ ul li {
   text-transform: capitalize;
   color: #f3b00e;
   border-color: #f3b00e;
-  font-weight: 400;
-  font-family: 'human_sansbold', Helvetic, sans-serif;
+  font-weight: 300;
+  font-family: Helvetic, sans-serif;
 }
 
 .resume_group .department {
@@ -619,10 +623,12 @@ ul li {
 .resume_group .location {
   color: #ababab;
   font-weight: normal;
+  font-family: Helvetic, sans-serif;
 }
 
-.resume_group p {
+.resume_group .content {
   font-weight: initial;
+  font-family: Helvetic, sans-serif;
 }
 
 .resume_group .specialties {
