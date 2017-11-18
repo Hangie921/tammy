@@ -2,6 +2,7 @@ body {
   font-family: 'human_sansextralight', Helvetic, sans-serif;
   font-weight: 400;
   color: #6c7279;
+  padding-top: 1px;
 }
 
 /* color : yellow:#ffcc00 dark gray:#666666 pale blue:#99ccff light gray:#cccccc */
@@ -226,7 +227,6 @@ ul li {
 }
 
 .nav-toggle {
-  display: none;
   height: 44px;
   overflow: hidden;
   position: fixed;
@@ -857,3 +857,8 @@ ul li {
 
 
 /* IE7 */
+
+
+
+/* mobile settings */
+

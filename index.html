@@ -14,15 +14,15 @@
   <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/flexslider.css">
-  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
   <!-- Header Section -->
-  <section class="tophead" role="tophead">
+  <section class="" role="tophead">
     <!-- Navigation Section -->
     <header id="header">
       <div class="header-content clearfix">
@@ -32,18 +32,18 @@
         </a>
         <nav class="navigation" role="navigation">
           <ul class="primary-nav">
-            <li><a class="white" href="#portfolio">What I do</a></li>
-            <li><a class="white" href="#about">Who I am</a></li>
+            <li class="nav_link"><a class="white" href="#portfolio">What I do</a></li>
+            <li class="nav_link"><a class="white" href="#about">Who I am</a></li>
           </ul>
         </nav>
-        <a href="#" class="nav-toggle">Menu<span></span></a>
+        <a href="#" class="nav-toggle visible-xs">Menu<span></span></a>
       </div>
     </header>
     <!-- end of Navigation Section -->
   </section>
   <!-------- end of Header Section -------->
   <!-- Slider Section -->
-  <section id="header-slider">
+  <section id="header-slider" class="hidden-xs">
     <div id="myCarousel" data-ride="carousel" class="carousel slide">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -77,6 +77,11 @@
     </div>
   </section>
   <!-------- end of Slider Section -------->
+
+  <section id="header_img" class="visible-xs">
+    <img class="img-responsive" src="images/proj_1/slid1.jpg" alt="">
+  </section>
+
   <!-- portfolio grid section -->
   <section id="portfolio" class="full_section portfolio">
     <div class="container-fluid">

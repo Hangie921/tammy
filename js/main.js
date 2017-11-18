@@ -5,12 +5,12 @@ $(document).ready(function() {
 
     if (scroll >= 50) {
       $('#header').addClass('fixed');
-      $('#header a').removeClass('white');
-      $('.logo').removeClass('white')
+      $('#header .nav_link a').removeClass('white');
+      $('#header .logo').removeClass('white')
     } else {
       $('#header').removeClass('fixed');
-      $('#header a').addClass('white');
-      $('.logo').addclass('white')
+      $('#header .nav_link a').addClass('white');
+      $('#header .logo').addClass('white')
     }
   });
 
