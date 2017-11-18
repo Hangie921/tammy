@@ -13,6 +13,8 @@ body {
 p {
   font-size: 16px;
   line-height: 22.4px;
+  font-family: 'human_sanslight', Helvetic, sans-serif;
+
 }
 
 h1 {
@@ -644,6 +646,7 @@ ul li {
 
 .resume_group .specialties li {
   position: relative;
+  font-size: 16px;
 }
 
 .resume_group .specialties li::after {
@@ -656,6 +659,12 @@ ul li {
   left: -10px;
   top: 9px;
 }
+
+.download_link {
+  display: inline-block;
+  padding-top: 20px;
+}
+
 
 /* ------------------------------------------------------------------------------
    Footer
