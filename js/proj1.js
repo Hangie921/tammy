@@ -5,12 +5,8 @@ $(document).ready(function() {
 
     if (scroll >= 600) {
       $('.navigation').addClass('fixed');
-      $('.navigation .nav_link a').removeClass('white');
-      $('.navigation .logo').removeClass('white')
     } else {
       $('.navigation').removeClass('fixed');
-      $('.navigation .nav_link a').addClass('white');
-      $('.navigation .logo').addClass('white')
     }
   });
 
