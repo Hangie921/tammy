@@ -5,7 +5,7 @@ body {
 // color : yellow:#ffcc00 dark gray:#666666 pale blue:#99ccff light gray:#cccccc
 
 /* -----------------------------------------------------------------
-	 Typography
+   Typography
 -----------------------------------------------------------------*/
 
 p {
@@ -66,13 +66,14 @@ h6 {
   padding: 15px 40px;
 }
 
+
 /* --------------------------------------------------------------------
    For position
 --------------------------------------------------------------------*/
 
 
 /* --------------------------------------------------------------------
-	 General Style
+   General Style
 --------------------------------------------------------------------*/
 
 a {
@@ -108,12 +109,12 @@ ul li {
 }
 
 .smallSection {
-	padding: 0 3%;
+  padding: 0 3%;
 }
 
 .no_pad {
   padding-left: 0 !important;
-  padding-right: 0 !important; 
+  padding-right: 0 !important;
 }
 
 .fullsection {
@@ -121,8 +122,9 @@ ul li {
 }
 
 
+
 /* ------------------------------------------------------------------------------
-	 Header & navigation
+   Header & navigation
 -------------------------------------------------------------------------------*/
 
 #header {
@@ -354,8 +356,9 @@ ul li {
 
 
 
+
 /* ------------------------------------------------------------------------------
-	 Header Slider
+   Header Slider
 -------------------------------------------------------------------------------*/
 
 .carousel {
@@ -418,8 +421,9 @@ ul li {
 
 
 
+
 /* ------------------------------------------------------------------------------
-	 Portfolio
+   Portfolio
 -------------------------------------------------------------------------------*/
 
 #portfolio {
@@ -502,8 +506,9 @@ ul li {
 }
 
 
+
 /* ------------------------------------------------------------------------------
-	 about
+   about
 -------------------------------------------------------------------------------*/
 
 #about {
@@ -537,9 +542,9 @@ ul li {
 }
 
 .about .slogan2 p {
-	color: #3d2c2c;
-	font-size: 14px;
-	margin-top: 7%;
+  color: #3d2c2c;
+  font-size: 14px;
+  margin-top: 7%;
 }
 
 .about-content {
@@ -559,9 +564,10 @@ ul li {
 
 
 
+
 /* ------------------------------------------------------------------------------
-	 Footer
-	 
+   Footer
+   
 -------------------------------------------------------------------------------*/
 
 .footer {
@@ -573,8 +579,9 @@ ul li {
   color: #fff;
 }
 
-.list_group{
-  border-bottom:1px solid #fff;
+.list_group {
+  border-bottom: 1px solid #fff;
+  clear: right;
 }
 
 .block {
@@ -600,38 +607,96 @@ ul li {
   text-decoration: none;
 }
 
-.footer .footer-share {
+.footer-share {
   min-height: 180px;
 }
 
+.footer-share a {
+  color: #000;
+}
 
-.footer .footer-share li {
-  display: inline;
+.footer-share li {
+  display: inline-block;
   margin: 2px;
   float: none;
 }
 
-.footer .footer-share a {
+.footer-share a {
   border: none;
   font-size: 28px;
   letter-spacing: 15px;
 }
 
-.copyright {
-  padding-top:5%;
+
+/* to make the icon center */
+.footer-share .fa-stack-1x {
+  left: 3px;
+  color: #545454;
+}
+
+
+.copyright_group {
+  padding-top: 1%;
+  padding-bottom: 1%;
   min-height: 50px;
 }
 
-.footer .fa-heart {
+.copyright_group .fa-heart {
   color: #e84545;
   font-size: 11px;
   margin: 0 2px;
 }
 
+.lang_group {
+  color: #000;
+  text-align: right;
+}
+
+
+/* for the language style */
+
+.select-style {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  width: 120px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #545454;
+  color: #fff;
+  position: relative;
+}
+
+.select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+}
+
+.select-style .glyphicon {
+  position: absolute;
+  right: 5px;
+}
+
+.select-style .top {
+  top: 1px;
+}
+
+.select-style .bottom {
+  top: 12px;
+}
 
 
 /*------------------------------------------------------------------------------
-	 Work Detial 
+   Work Detial 
 -------------------------------------------------------------------------------*/
 
 .work-detail {
@@ -666,7 +731,9 @@ ul li {
   margin-top: 7%;
 }
 
-// ==== clearfix ========
+
+/* ==== clearfix ======== */
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -675,5 +742,17 @@ ul li {
   clear: both;
   height: 0;
 }
-* html .clearfix             { zoom: 1; } /* IE6 */
-*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+* html .clearfix {
+  zoom: 1;
+}
+
+
+/* IE6 */
+
+*:first-child+html .clearfix {
+  zoom: 1;
+}
+
+
+/* IE7 */
