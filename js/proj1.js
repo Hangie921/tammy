@@ -19,6 +19,7 @@ $(document).ready(function() {
   $('.flexslider').flexslider({
     animation: "fade",
     directionNav: false,
+    slideshowSpeed: 2000
   });
 
   // Page Scroll

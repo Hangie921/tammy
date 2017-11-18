@@ -8,6 +8,26 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
 }
 
+/* navigation */
+
+.navigation {
+  position: absolute;
+  top: 600px;
+  left: 0;
+  height: 100vh;
+  outline: 1px solid #f00;
+  padding-top: 30vh;
+  clear: right;
+}
+
+.navigation.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  float: none;
+}
+
+
 /* ------------------------------------------------------------------------------
    Header Slider
 -------------------------------------------------------------------------------*/
@@ -78,25 +98,11 @@ h1, h2, h3, h4, h5, h6 {
   opacity: .5;
 }
 
-/* navigation */
-
-.navigation {
-  position: absolute;
-  top: 600px;
-  left: 0;
-  height: 100vh;
-  outline: 1px solid #f00;
-  padding-top: 30vh;
-  clear: right;
+.function_bar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: right;
 }
-
-.navigation.fixed{
-  position: fixed;
-  top: 0;
-  left: 0;
-  float: none;
-}
-
 
 /* background */
 
