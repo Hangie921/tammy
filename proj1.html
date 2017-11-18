@@ -13,6 +13,7 @@
   <title>Xiaomin Tang</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/flexslider.css">
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/proj1.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -21,7 +22,16 @@
 </head>
 
 <body>
-  <!-------- end of Header Section -------->
+  <nav class="navigation" role="navigation">
+    <ul class="primary-nav">
+      <li class="nav_link"><a class="white" href="#background">background</a></li>
+      <li class="nav_link"><a class="white" href="#empathize">empathize</a></li>
+      <li class="nav_link"><a class="white" href="#ideation">ideation</a></li>
+      <li class="nav_link"><a class="white" href="#prototype">prototype</a></li>
+      <li class="nav_link"><a class="white" href="#feedback">feedback</a></li>
+      <li class="nav_link"><a class="white" href="#mockup">mockup</a></li>
+    </ul>
+  </nav>
   <!-- Slider Section -->
   <section id="header-slider" class="hidden-xs">
     <div id="myCarousel" data-ride="carousel" class="carousel slide">
@@ -61,17 +71,6 @@
   <section id="header_img" class="visible-xs">
     <img class="img-responsive" src="images/proj_1/slid1.jpg" alt="">
   </section>
-
-  <nav class="navigation" role="navigation">
-    <ul class="primary-nav">
-      <li class="nav_link"><a class="white" href="#background">background</a></li>
-      <li class="nav_link"><a class="white" href="#empathize">empathize</a></li>
-      <li class="nav_link"><a class="white" href="#ideation">ideation</a></li>
-      <li class="nav_link"><a class="white" href="#prototype">prototype</a></li>
-      <li class="nav_link"><a class="white" href="#feedback">feedback</a></li>
-      <li class="nav_link"><a class="white" href="#mockup">mockup</a></li>
-    </ul>
-  </nav>
 
   <section class="background full_section" id="background">
     <div class="container-fluid">
@@ -162,7 +161,9 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12">
-          <img src="" alt="prototype" class="img-responsive">
+          <a href="images/proj_1/slid1.jpg" data-lightbox="image-1">
+            <img src="images/proj_1/slid1.jpg" alt="prototype" class="img-responsive">
+          </a>
         </div>
       </div>
     </div>
@@ -311,7 +312,8 @@
   <script src="js/jquery.flexslider-min.js"></script>
   <script src="js/retina.min.js"></script>
   <script src="js/modernizr.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/proj1.js"></script>
 </body>
 
 </html>
