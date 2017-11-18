@@ -1,0 +1,97 @@
+/* general style */
+
+.full_section {
+  padding: 10% 8% 10% 20%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+}
+
+/* ------------------------------------------------------------------------------
+   Header Slider
+-------------------------------------------------------------------------------*/
+
+.carousel {
+  width: 100%;
+  height: 600px;
+  margin: 0px;
+}
+
+.carousel-inner {
+  min-height: 600px;
+  background-color: #aaa;
+}
+
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-caption {
+  bottom: 10%;
+  color: #fff;
+  left: 10%;
+  padding-bottom: 8%;
+  padding-top: 8%;
+  position: absolute;
+  right: 10%;
+  text-align: center;
+  z-index: 10;
+}
+
+.carousel-caption h1 {
+  text-shadow: none;
+  font-size: 72px;
+  font-weight: lighter;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.carousel-caption p {
+  margin-top: 20px;
+  text-shadow: none;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.carousel-control.left {
+  background: none;
+}
+
+.carousel-control.right {
+  background: none;
+}
+
+.carousel-control {
+  opacity: 1;
+  text-shadow: none;
+}
+
+.carousel-indicators li {
+  background-color: #fff;
+}
+.carousel-indicators li.active{
+  opacity: .5;
+}
+
+/* navigation */
+
+.navigation {
+  /* position: fixed; */
+  position: absolute;
+  height: 100vh;
+  outline: 1px solid #f00;
+  padding-top: 30vh;
+}
+
+
+/* background */
+
+.background {
+  padding-top: 8%;
+  padding-bottom: 4%;
+}

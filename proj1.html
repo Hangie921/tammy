@@ -7,142 +7,311 @@
 <!--<![endif]-->
 
 <head>
-<meta charset="utf-8">
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Auro - Elegant, Minimal, Creative Bootstrap Template</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/flexslider.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/animate.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xiaomin Tang</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/flexslider.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/proj1.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
-<!-- Header Section -->
-<section class="tophead" role="tophead"> 
-  <!-- Navigation Section -->
-  <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="#">Auro</a>
-      <nav class="navigation" role="navigation">
-        <ul class="primary-nav">
-          <li><a href="./l#header-slider">Home</a></li>
-          <li><a href="./#services">Our Services</a></li>
-          <li><a href="./#portfolio">Our Portfolio</a></li>
-          <li><a href="./#testimonials">Testimonials</a></li>
-          <li><a href="./#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
-  </header>
-  <!-- Navigation Section --> 
-</section>
-<!-- Header Section -->
-<!-- work details section -->
-<section id="work-detail" class="section work-detail">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-8 work-detail-margin detail-image">
-        <div class="work-image">
-          <p> <img src="images/portfolio/work-1.jpg"></p>
-          <p> <img src="images/portfolio/work-3.jpg"></p>
-          <p> <img src="images/portfolio/work-5.jpg"></p>
+  <!-------- end of Header Section -------->
+  <!-- Slider Section -->
+  <section id="header-slider" class="hidden-xs">
+    <div id="myCarousel" data-ride="carousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/proj_1/slid1.jpg" alt="proj1">
+        </div>
+        <div class="item">
+          <img src="images/proj_1/slid2.jpg" alt="proj2">
+        </div>
+        <div class="carousel-caption">
+          <h1>Rainbover</h1>
+          <p>A System to Help Mirgrant Kids
+            <br>Develop Habits in Kindergarten
+          </p>
         </div>
       </div>
-      <div class="col-md-4 work-detail-margin detail-contentbox">
-        <div class="detail-content">
-          <h4>New Branding Projects</h4>
-          <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-          <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-          <a class="btn" href="#">Visit Site <i class="fa fa-long-arrow-right"></i></a> </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> 
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> 
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> 
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-------- end of Slider Section -------->
+
+  <section id="header_img" class="visible-xs">
+    <img class="img-responsive" src="images/proj_1/slid1.jpg" alt="">
+  </section>
+
+  <nav class="navigation" role="navigation">
+    <ul class="primary-nav">
+      <li class="nav_link"><a class="white" href="#background">background</a></li>
+      <li class="nav_link"><a class="white" href="#empathize">empathize</a></li>
+      <li class="nav_link"><a class="white" href="#ideation">ideation</a></li>
+      <li class="nav_link"><a class="white" href="#prototype">prototype</a></li>
+      <li class="nav_link"><a class="white" href="#feedback">feedback</a></li>
+      <li class="nav_link"><a class="white" href="#mockup">mockup</a></li>
+    </ul>
+  </nav>
+
+  <section class="background full_section" id="background">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="title">
+            Can We Ensure<br>A Brighter Future For The Children Of<br>The Ever-Rising Migrant People?
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 class="sub_title">
+            There are 12million migrant Preschool children
+          </h3>
+          <div class="title_underline"><hr></div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iste ea odit nihil error ex aliquam quis dolore provident dolorum. Error aliquam, non minus esse dolor laborum cum ipsam magnam?</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <h3 class="sub_title">
+            We work with all stakeholders to improve these kindergarten.
+          </h3>
+          <div class="title_underline"><hr></div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio velit quasi assumenda. Voluptas officia voluptates vitae, dicta quo porro, quae non est incidunt ipsam deleniti. Reiciendis voluptates, magnam debitis ea?</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- work details section --> 
+  </section>
 
-<!-- Testimonials section -->
-<section id="testimonials" class="section testimonials no-padding">
-  <div class="container-fluid">
-    <div class="row no-gutter">
-      <div class="flexslider">
-        <ul class="slides">
+  <section class="empathize full_section" id="empathize">
+    <div class="container-fluid">
+      <div class="row">
+        <h2 class="title">
+          Get a deeper understanding of the issues faced by migrant children (aged 3-6), teachers and families.
+        </h2>
+        <span class="content">
+          spending three days doing field research in 2 migrant kindergartens
+        </span>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <h4 class="sub_title">Communicate with kids through painting together</h4>
+          <div class="title_underline"><hr></div>
+          <img src="" alt="first" class="img-responsive">
+        </div>
+        <div class="col-sm-3">
+          <h4 class="sub_title">Communicate with kids through painting together</h4>
+          <div class="title_underline"><hr></div>
+          <img src="" alt="first" class="img-responsive">
+        </div>
+        <div class="col-sm-3">
+          <h4 class="sub_title">Communicate with kids through painting together</h4>
+          <div class="title_underline"><hr></div>
+          <img src="" alt="first" class="img-responsive">
+        </div>
+        <div class="col-sm-3">
+          <h4 class="sub_title">Communicate with kids through painting together</h4>
+          <div class="title_underline"><hr></div>
+          <img src="" alt="first" class="img-responsive">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="ideation full_section" id="ideation">
+    <div class="container-fluid">
+      <div class="row">
+        <h2 class="title">clear our findings with tools that<br>describe process and touch points of<br>the current education service.</h2>
+        <h6 class="sub_slogan">
+          tools we use including persona, shadowing,<br>obervation, interview, focus group
+        </h6>
+        <div class="col-sm-6">
+          <img src="" alt="img1" class="img-responsive">
+        </div>
+        <div class="col-sm-6">
+          <img src="" alt="img1" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="prototype full_section" id="prototype">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="" alt="prototype" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feedback full_section" id="feedback">
+    <div class="container-fluid">
+      <div class="row">
+        <h2 class="title">Habit and discipline is the core <br>painpoint for kids & teachers.</h2>
+        <h4 class="sub_title">
+          there is a chaos that <br>more than 20 children share a single sink and 5<br>faucets to wash hands
+        </h4>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <h4 class="sub_title">1/Mass up in stairs</h4>
+          <img src="" alt="feedback_img" class="img-responsive">
+        </div>
+        <div class="col-sm-4">
+          <h4 class="sub_title">2/Do not queue well</h4>
+          <img src="" alt="feedback_img" class="img-responsive">
+        </div>
+        <div class="col-sm-4">
+          <h4 class="sub_title">3/dont wash hands well</h4>
+          <img src="" alt="feedback_img" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mockup full_section" id="mockup">
+    <div class="container-fluid">
+      <div class="row">
+        <h2 class="title">How might we <br>Support the Development of Good <br>Habits in Migrant Kindergarten?</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <h4 class="sub_title">Design for teachers, not children</h4>
+          <div class="title_underline"><hr></div>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis enim fugiat, tempore quia officiis dolor, corporis molestias excepturi natus aut dicta? Velit ipsa, harum fuga reprehenderit dolores cumque, dolore cupiditate!
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h4 class="sub_title">Keep cost low and replicability high</h4>
+          <div class="title_underline"><hr></div>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt doloremque illo commodi sed est tenetur, distinctio ea repellendus doloribus alias nobis iusto eaque veritatis fugiat deleniti eius delectus! Eius, quibusdam.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h4 class="sub_title">Prototype to measure impoct (and not just effectiveness)</h4>
+          <div class="title_underline"><hr></div>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum amet doloremque vel, incidunt expedita, cum. Ipsa, similique velit recusandae id, cum quidem architecto sunt delectus minima repellat totam ducimus aliquid?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer section -->
+  <footer id="contact" class="footer">
+    <div class="list_group clearfix">
+      <div class="col-sm-2 name clearfix">
+        <h4>Tammy Tang</h4>
+      </div>
+      <div class="col-sm-2 whatIDo clearfix">
+        <h4>What I do</h4>
+        <ul class="block">
+          <li><a href="#">Rainbover</a></li>
+          <li><a href="#">Keke</a></li>
+          <li><a href="#">Decorde</a></li>
+          <li><a href="#">Littleworld</a></li>
+          <li><a href="#">A-Yuan</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-2 whoIAm clearfix">
+        <h4>Who I am</h4>
+        <ul class="block">
+          <li><a href="index.html#about">About Me</a></li>
+          <li><a href="index.html#resume">Resume</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4 col-sm-offset-2 contact clearfix">
+        <ul class="footer-share">
           <li>
-            <div class="col-md-12">
-              <blockquote>
-                <h1>"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Phasellus non dolor nibh. Nullam elementum Aenean eu leo quam..." </h1>
-                <p>Rene Brown, Open Window production</p>
-              </blockquote>
-            </div>
+            <a href="mailto:tangtxm@outlook.com">
+              <!-- <i class="fa fa-envelope"></i> -->
+              <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-envelope fa-stack-1x"></i>
+              </span>
+            </a>
           </li>
           <li>
-            <div class="col-md-12">
-              <blockquote>
-                <h1>"Cras dictum tellus dui, vitae sollicitudin ipsum. Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat shasellus non dolor nibh. Nullam elementum tellus pretium feugiat." </h1>
-                <p>Brain Rice, Lexix Private Limited.</p>
-              </blockquote>
-            </div>
+            <a href="https://www.behance.net/TammyTang">
+              <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-behance fa-stack-1x"></i>
+              </span>
+            </a>
           </li>
           <li>
-            <div class="col-md-12">
-              <blockquote>
-                <h1>"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur...." </h1>
-                <p>Andi Simond, Global Corporate Inc</p>
-              </blockquote>
-            </div>
+            <a href="https://www.linkedin.com/in/tangxiaomin/">
+              <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-linkedin fa-stack-1x"></i>
+              </span>
+            </a>
           </li>
           <li>
-            <div class="col-md-12">
-              <blockquote>
-                <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elitPhasellus non dolor nibh. Nullam elementum tellus pretium feugiat. Cras dictum tellus dui sollcitudin." </h1>
-                <p>Kristy Gabbor, Martix Media</p>
-              </blockquote>
-            </div>
+            <a href="https://www.facebook.com/TammyTXM">
+              <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+              </span>
+            </a>
           </li>
         </ul>
       </div>
     </div>
-  </div>
-</section>
-<!-- Testimonials section --> 
-
-<!-- footer section -->
-<footer id="contact" class="footer">
-  <div class="container-fluid">
-    <div class="col-md-2 left">
-      <h4>Office Location</h4>
-      <p> Collins Street West Victoria 8007 Australia.</p>
+    <div class="copyright_group clearfix">
+      <div class="col-sm-6">
+        <p>Made with <i class="fa fa-heart pulse"></i> by <a href="#">Tammy Tang</a> © 2017 All rights reserved
+        </p>
+      </div>
+      <div class="col-sm-6 lang_group">
+        <div class="select-style">
+          <select>
+            <option value="en">English</option>
+            <option value="en">Chinese (Traditional)</option>
+            <option value="en">Chinese (Simplified)</option>
+          </select>
+          <span class="glyphicon glyphicon-triangle-top top"></span>
+          <span class="glyphicon glyphicon-triangle-bottom bottom"></span>
+        </div>
+      </div>
     </div>
-    <div class="col-md-2 left">
-      <h4>Contact</h4>
-      <p> Call: 612.269.8419 <br>
-        Email : <a href="mailto:hello@agency.com"> hello@agency.com </a></p>
-    </div>
-    <div class="col-md-2 left">
-      <h4>Social presense</h4>
-      <ul class="footer-share">
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-      </ul>
-    </div>
-    <div class="col-md-6 right">
-      <p>© 2015 All rights reserved. All Rights Reserved<br>
-        Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
-    </div>
-  </div>
-</footer>
-<!-- footer section --> 
-
-<!-- JS FILES --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.flexslider-min.js"></script> 
-<script src="js/retina.min.js"></script> 
-<script src="js/modernizr.js"></script> 
-<script src="js/main.js"></script>
+  </footer>
+  <!-------- end of footer section -------->
+  <!-- JS FILES -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.flexslider-min.js"></script>
+  <script src="js/retina.min.js"></script>
+  <script src="js/modernizr.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
