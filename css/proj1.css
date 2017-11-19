@@ -314,8 +314,24 @@ h4.sub_title {
 /* empathize */
 
 .empathize .sub_slogan {
-  margin-top: 5%;
+  margin-top: -24%;
+  margin-bottom: 16%;
+}
+
+/* ideation */
+
+.ideation .sub_slogan {
+  margin-top: -24%;
   margin-bottom: 10%;
+  text-transform: initial;
+}
+
+/* feedback */
+
+.feedback .sub_slogan {
+  margin-top: -24%;
+  margin-bottom: 10%;
+  font-weight: bold;
 }
 
 /* footer */

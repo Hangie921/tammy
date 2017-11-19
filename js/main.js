@@ -57,6 +57,8 @@ $(document).ready(function() {
   });
 
   // language setting
+  // For now, when you choose the language, next time your reload 
+  // the page, it will be the language you previous set
   var lang = new Lang();
   lang.dynamic('zh', 'js/lang/langpack/zh.json');
   lang.dynamic('cn', 'js/lang/langpack/cn.json');
@@ -68,5 +70,5 @@ $(document).ready(function() {
     window.lang.change(e.target.value)
     return false
   }
-  
+
 });
