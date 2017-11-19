@@ -3,6 +3,7 @@ body {
   font-weight: 400;
   color: #6c7279;
   padding-top: 1px;
+  font-size: 16px;
 }
 
 /* color : yellow:#ffcc00 dark gray:#666666 pale blue:#99ccff light gray:#cccccc */
@@ -19,7 +20,7 @@ p {
 }
 
 h1 {
-  font-size: 65px;
+  font-size: 64px;
 }
 
 h2 {
@@ -46,7 +47,7 @@ h5 {
 }
 
 h6 {
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
   font-family: 'human_sansregular', Helvetic, sans-serif;
