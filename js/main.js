@@ -55,4 +55,18 @@ $(document).ready(function() {
     $('.nav-toggle').toggleClass('close-nav');
     nav.toggleClass('open');
   });
+
+  // language setting
+  var lang = new Lang();
+  lang.dynamic('zh', 'js/lang/langpack/zh.json');
+  lang.dynamic('cn', 'js/lang/langpack/cn.json');
+  lang.init({
+    defaultLang: 'en',
+    currentLang: 'en'
+  });
+  function clickOpt (e) {
+    window.lang.change(e.target.value)
+    return false
+  }
+  
 });
