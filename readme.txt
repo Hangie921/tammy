@@ -3,7 +3,6 @@ Dear Tammy:
 Please read the following b4 you start to modify the content to avoid
 unnecessary waste of time
 
-
 1. For language setting
   I write an example already for the "Who I am" in the footer.
   Just select the language option and you should see the change.
@@ -22,15 +21,17 @@ unnecessary waste of time
      and proj1.html, then the reset will be in the individual .css file. So
      do the responsive CSS
   
-  b. Most of the class name you see in the html file would be the class in 
+  b. Most of the class name you see in the html file would be the class in
      bootstrap 3.
-     here is the https://www.w3schools.com/bootstrap/default.asp
+     Here is the https://www.w3schools.com/bootstrap/default.asp
 
-  c. More details is in the individual .css file.
+  c. More details is in the individual .css file. Generally I use a lot of
+     <section> to separate every block, and use bootstrap to give them space
+     and sort the position.
 
 3. For the carousel
 
-  a. index.html is using different carousel plugin from the proj1.html as the 
+  a. index.html is using different carousel plugin from the proj1.html as the
      different request. Because you request the interval time of the carousel,
      I think it's easier to use another plugin.
 

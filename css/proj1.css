@@ -18,6 +18,7 @@ h4.sub_title {
 }
 
 /* navigation */
+/* This navigation style is the heritage of the template */
 
 .navigation {
   position: absolute;
@@ -290,7 +291,6 @@ h4.sub_title {
   font-weight: 300;
   letter-spacing: 2px;
 }
-
 
 
 .flex-control-nav {
