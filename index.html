@@ -382,8 +382,8 @@
       <div class="col-sm-6 lang_group">
         <div class="select-style">
           <select onChange="clickOpt(event)">
-            <option value="en" onClick="clickOpt">English</option>
-            <option value="zh" onClick="clickOpt">Chinese (Traditional)</option>
+            <option value="en">English</option>
+            <option value="zh">Chinese (Traditional)</option>
             <option value="cn">Chinese (Simplified)</option>
           </select>
           <span class="glyphicon glyphicon-triangle-top top"></span>
@@ -402,7 +402,23 @@
   <script src="js/lang/jquery-lang.js"></script>
   <script src="js/lang/js.cookie.js"></script>
   <script src="js/lang/langpack/nonDynamic.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
+  <script >
+    // language setting
+    // For now, when you choose the language, next time your reload 
+    // the page, it will be the language you previous set
+    var lang = new Lang();
+    lang.dynamic('zh', 'js/lang/langpack/zh.json');
+    lang.dynamic('cn', 'js/lang/langpack/cn.json');
+    lang.init({
+      defaultLang: 'en',
+      currentLang: 'en'
+    });
+    function clickOpt (e) {
+      window.lang.change(e.target.value)
+      return false
+    }
+  </script>
 </body>
 
 </html>

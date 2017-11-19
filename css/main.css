@@ -168,10 +168,11 @@ ul li {
 .list_group {
   border-bottom: 1px solid #fff;
   clear: right;
+  padding-bottom: 5%;
 }
 
 .block {
-  min-height: 150px;
+  padding-bottom: 10px;
 }
 
 .block li {
@@ -191,10 +192,6 @@ ul li {
 
 .footer a:hover {
   text-decoration: none;
-}
-
-.footer-share {
-  min-height: 180px;
 }
 
 .footer-share a {
