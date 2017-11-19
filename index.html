@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Xiaomin Tang</title>
   <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -330,7 +330,7 @@
         </ul>
       </div>
       <div class="col-sm-2 whoIAm clearfix">
-        <h4>Who I am</h4>
+        <h4 lang="en">Who I am</h4>
         <ul class="block">
           <li><a href="#about">About Me</a></li>
           <li><a href="#resume">Resume</a></li>
@@ -381,10 +381,10 @@
       </div>
       <div class="col-sm-6 lang_group">
         <div class="select-style">
-          <select>
-            <option value="en">English</option>
-            <option value="en">Chinese (Traditional)</option>
-            <option value="en">Chinese (Simplified)</option>
+          <select onChange="clickOpt(event)">
+            <option value="en" onClick="clickOpt">English</option>
+            <option value="zh" onClick="clickOpt">Chinese (Traditional)</option>
+            <option value="cn">Chinese (Simplified)</option>
           </select>
           <span class="glyphicon glyphicon-triangle-top top"></span>
           <span class="glyphicon glyphicon-triangle-bottom bottom"></span>
@@ -400,6 +400,21 @@
   <script src="js/retina.min.js"></script>
   <script src="js/modernizr.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/lang/jquery-lang.js"></script>
+  <script src="js/lang/js.cookie.js"></script>
+  <script src="js/lang/langpack/nonDynamic.js"></script>
+  <script type="text/javascript">
+    var lang = new Lang();
+    lang.dynamic('zh', 'js/lang/langpack/zh.json');
+    lang.dynamic('cn', 'js/lang/langpack/cn.json');
+    lang.init({
+      defaultLang: 'en'
+    });
+    function clickOpt (e) {
+      window.lang.change(e.target.value)
+      return false
+    }
+  </script>
 </body>
 
 </html>

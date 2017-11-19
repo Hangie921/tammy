@@ -1,0 +1,10 @@
+{
+	"token": {
+		"Who I am":"关于我",
+	},
+	"regex": [
+		["Budget", "งบประมาณ"],
+		["^Something at start of text", ""],
+		["This will be case insensitive", "i", ""]
+	]
+}
