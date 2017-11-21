@@ -117,21 +117,23 @@ p  12px */
   p {
     font-size: 14px;
   }
+  
+  #header-slider {
+    height: 450px;
+  }
 
   .carousel-control {
     visibility: hidden;
   }
   .carousel-caption {
-    padding-top: 10%;
+    top: 10%;
+    padding-bottom: 0;
   }
   .carousel-caption h1 {
     font-size: 42px;
   }
   .banner-text p {
     font-size: 18px;
-  }
-  .flexslider {
-    padding-bottom: 80px;
   }
   .flex-control-nav {
     width: 100%;
