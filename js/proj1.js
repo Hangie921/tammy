@@ -2,11 +2,14 @@ $(document).ready(function() {
   // Header Scroll
   $(window).on('scroll', function() {
     var scroll = $(window).scrollTop();
+    console.log(scroll)
 
-    if (scroll >= 600) {
-      $('.navigation').addClass('fixed');
+    if (scroll >= 400) {
+      $('#header').addClass('fixed')
+      $('#header .logo.white').removeClass('white')
     } else {
-      $('.navigation').removeClass('fixed');
+      $('#header').removeClass('fixed')
+      $('#header .logo').addClass('white')
     }
   });
 

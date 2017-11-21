@@ -65,6 +65,10 @@
 }
 
 
+#header_img {
+  position: relative;
+}
+
 /* ------------------------------------------------------------------------------
    Header & navigation
 -------------------------------------------------------------------------------*/
@@ -120,6 +124,7 @@
 }
 
 
+
 /* navigation */
 
 .navigation.open {
@@ -164,7 +169,7 @@
   position: fixed;
   right: 5%;
   text-indent: 100%;
-  top: 32px;
+  top: 15px;
   white-space: nowrap;
   width: 44px;
   z-index: 99999;
