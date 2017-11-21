@@ -68,7 +68,7 @@ h4.sub_title {
   content: "";
   display: block;
   position: absolute;
-  right: -10px;
+  left: -15px;
   top: 8px;
   width: 5px;
   height: 5px;
