@@ -224,8 +224,8 @@ you can replace the following as you like */
   width: 120px;
   border-radius: 3px;
   overflow: hidden;
-  background-color: #545454;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   position: relative;
   width: 200px;
 }
