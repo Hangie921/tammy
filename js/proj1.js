@@ -6,10 +6,12 @@ $(document).ready(function() {
 
     if (scroll >= 400) {
       $('#header').addClass('fixed')
+      $('.navigation').addClass('fixed')
       $('#header .logo.white').removeClass('white')
     } else {
       $('#header').removeClass('fixed')
       $('#header .logo').addClass('white')
+      $('.navigation').removeClass('fixed')
     }
   });
 
