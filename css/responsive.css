@@ -28,6 +28,15 @@ h5 14px
 h6 12px
 p  12px */
 
+@media screen and (min-width: 1441px) {
+  #portfolio .portfolio-link-group {
+    padding-left: 14%;
+    padding-right: 14%;
+    display:block;
+  }
+
+}
+
 @media screen and (max-width: 1440px) {
   #header .header-content {
     width: 100%;
