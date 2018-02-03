@@ -57,7 +57,7 @@ h6 {
 /* --------------------------------------------------------------------
    For position
 --------------------------------------------------------------------*/
-/* Add some space related class here, so you can directly use 
+/* Add some space related class here, so you can directly use
 once you need the space */
 .bottom_space-sm{
   padding-bottom: 15px;
@@ -105,7 +105,7 @@ ul li {
 }
 
 .full_section {
-  padding: 0 8%;
+  /*padding: 0 8%;*/
 }
 
 /* The underline of the sub title */
@@ -124,7 +124,7 @@ ul li {
 
 /* ------------------------------------------------------------------------------
    Footer
-   
+
 -------------------------------------------------------------------------------*/
 
 .footer {
@@ -288,4 +288,3 @@ you can replace the following as you like */
 
 
 /* mobile settings */
-
